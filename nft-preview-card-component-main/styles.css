@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Outfit', sans-serif;
+}
+
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    display: grid;
+    place-items: center;
+    height: auto;
+    padding: 1.5rem;
+    
+}
+
+#main-container {
+    background-color: hsl(216, 50%, 16%);
+    display: grid;
+    place-items: center;
+    position: relative;
+    max-width: 22rem;
+    max-height: fit-content;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    
+
+}
+
+.card_img {
+    position: relative;
+    max-width: 100%;
+    padding: auto;
+    border-radius: 0.4rem;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+.main_img {
+    position: relative;
+}
+
+.main_img div {
+    position: absolute;
+    top: 0;
+    background-color: hsl(178, 100%, 50%, 60%);
+    width: 100%;
+    height: 99%;
+    z-index: 999;
+    border-radius: 0.4rem;
+    opacity: 0;
+}
+
+.main_img div img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main_img div:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+.card_title {
+    padding: 1rem 0.5rem 0.5rem 0;
+    color: white;
+    font-weight: 600;
+
+}
+
+.card_title:hover {
+    color: aqua;
+    cursor: pointer;
+}
+
+.card_text {
+    color:hsl(215, 51%, 70%);
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.eth {
+    color: aqua;
+}
+
+.time {
+    color:hsl(215, 51%, 70%);
+}
+
+.card_price {
+    display: flex;
+}
+
+.card_price img {
+    margin-right: 0.5rem;
+}
+
+.card_time {
+    display: flex;
+}
+
+.card_time img {
+    margin-right: 0.5rem;
+}
+
+.footer {
+    padding: 1rem 0 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.footer img {
+    width: 3.5rem;
+    border: 1.5px solid white;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.footer_text {
+    color: hsl(215, 51%, 70%);;
+    font-weight: 300;
+}
+
+.footer_text span {
+    color: white;
+}
+
+.footer_text span:hover {
+    color: cyan;
+    cursor: pointer;
+}
+
+
+.attribution {
+     font-size: 15px; 
+     color: white;
+     text-align: center; 
+    }
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
+
+   /* The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Soft blue: hsl(215, 51%, 70%)
+- Cyan: hsl(178, 100%, 50%)
+
+### Neutral
+
+- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 18px
+
+### Font
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 300, 400, 600
