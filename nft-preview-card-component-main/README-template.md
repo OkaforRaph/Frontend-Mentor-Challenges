@@ -5,9 +5,9 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 ## Table of contents
 
 - [NFT preview card](#overview)
-  - [The design of NFT card using CSS Grid](#the-challenge)
-  - [VS Code, HTML, Css](#built-with)
-  - [I learnt how to use Css Grid](#what-i-learned)
+- [The design of NFT card using CSS Grid](#the-challenge)
+- [VS Code, HTML, Css](#built-with)
+- [I learnt how to use Css Grid](#what-i-learned)
 - [Okafor Raphael](#author)
 - [Freecodecamp.io](#acknowledgments)
 
